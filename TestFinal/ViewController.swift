@@ -33,7 +33,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource{
         let cell = imageCollectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath)as! ImageCollectionViewCell
         
        // cell.imageImageView.image = UIImage(named: image[indexPath.row])
-       // cell.layer.cornerRadius = cell.frame.height / 2
+       // cell.layer.cornerRadius = cell.frame.height / 2 
         
         return cell
     }
